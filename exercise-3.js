@@ -7,14 +7,11 @@ var input = [
 
 function dataHandling() {
     for (var i = 0; i < input.length; i++) {
-            input[i][0] = 'Nomor ID: ' + input[i][0];
-            input[i][1] = 'Nama Lengkap: ' + input[i][1];
-            input[i][2] = 'TTL : ' + input[i][2];
-            input[i][3] = 'Hobi: ' + input[i][3];
+            console.log('Nomor ID: ' + input[i][0]);
+            console.log('Nama Lengkap: ' + input[i][1]);
+            console.log('TTL : ' + input[i][2]);
+            console.log('Hobi: ' + input[i][3]);
             // console.log();
     }
-    input[i] = input[i] + ['\n'];
-    return input;
 }
-
-dataHandling()
+console.log(dataHandling())
